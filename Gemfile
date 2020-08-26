@@ -30,4 +30,6 @@ group :development, :test do
   gem 'factory_bot_rails', '~>4.8.2'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
