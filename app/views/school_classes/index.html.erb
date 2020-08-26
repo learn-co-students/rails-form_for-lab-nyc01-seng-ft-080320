@@ -1,0 +1,8 @@
+<h3>School Class Index Page</h3>
+
+<% @school_classes.each do |school_class| %>
+    <div><%=link_to(school_class.title, school_class_path(school_class))  %></div>
+<% end %>
+
+<h3>Add School Class:</h3>
+<div><%=link_to("Click here!", new_school_class_path)  %></div>

@@ -1,0 +1,9 @@
+<h3>Individual School Class Page</h3>
+
+<%= @school_class.title %> : <%= @school_class.room_number %>
+
+<h3>Back to Index</h3>
+<div><%=link_to("Index", school_classes_path)  %></div>
+
+<h3>Edit School Class?</h3>
+<div><%=link_to("Edit", edit_school_class_path(@school_class))  %></div>
