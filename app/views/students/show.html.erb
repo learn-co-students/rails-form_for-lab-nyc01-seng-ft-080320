@@ -1,0 +1,10 @@
+<h3>Individual Student Page</h3>
+
+<%= @student.to_s %>
+
+<h3>Back to Index</h3>
+<div><%=link_to("Index", students_path)  %></div>
+
+<h3>Edit Student Profile?</h3>
+<div><%=link_to("Edit", edit_student_path(@student))  %></div>
+

@@ -1,0 +1,8 @@
+<h3>Student Index Page</h3>
+
+<% @students.each do |student| %>
+    <div><%=link_to(student.to_s, student_path(student))  %></div>
+<% end %>
+
+<h3>Add Student:</h3>
+<div><%=link_to("Click here!", new_student_path)  %></div>
